@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles/main.scss">
+  <script type="module" src="js/app.js"></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__banner">
+      <div class="container">
+        <p class="header__banner-text">Subscribe to our newsletter and stay updated with the latest arrivals and
+          exclusive offers!</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header__container">
+        <div class="header__left">
+          <div class="header__regions header__topbar hide-mobile">
+            <span class="header__regions-title header-title">SHOP IN REGION</span>
+            <a href="#" class="header__lang">ENG</a>
+          </div>
+          <div class="header__bottombar">
+            <div class="header__mobile hide-desktop">
+              <button class="header__mobile-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <a href="#" class="header__actions-btn">
+                <svg class="header__actions-icon">
+                  <use href="assets/img/sprite.svg#icons-heart"></use>
+                </svg>
+                </a>
+            </div>
+            <nav class="header__nav hide-laptop">
+              <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">PERFUMES</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">GIFTS</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">STORIES</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">ABOUT</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">OUR SERVICES</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <a href="#" class="header__logo">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/img/logo-mobile.svg" />
+            <img src="assets/img/logo-desktop.svg" alt="logo" class="header__logo-img" />
+          </picture>
+        </a>
+        <div class="header__right">
+          <div class="header__media header__topbar hide-mobile">
+            <span class="header__media-title header-title">BOUTIQUES</span>
+            <ul class="header__media-list">
+              <li class="header__media-item">
+                <a href="#" class="header__media-link">
+                  <svg class="header__media-icon">
+                    <use href="assets/img/sprite.svg#icons-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header__media-item">
+                <a href="#" class="header__media-link">
+                  <svg class="header__media-icon">
+                    <use href="assets/img/sprite.svg#icons-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header__media-item">
+                <a href="#" class="header__media-link">
+                  <svg class="header__media-icon">
+                    <use href="assets/img/sprite.svg#icons-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header__media-item">
+                <a href="#" class="header__media-link">
+                  <svg class="header__media-icon">
+                    <use href="assets/img/sprite.svg#icons-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__actions header__bottombar">
+            <div class="header__actions-search search hide-laptop">
+              <input type="text" class="search-input" placeholder="I`m looking for...">
+              <span class="search-icon">
+                <svg class="header__actions-icon">
+                    <use href="assets/img/sprite.svg#icons-search"></use>
+                  </svg>
+              </span>
+            </div>
+            <ul class="header__actions-list">
+              <li class="header__actions-item hide-laptop">
+                <a href="#" class="header__actions-btn">
+                  <svg class="header__actions-icon">
+                    <use href="assets/img/sprite.svg#icons-heart"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header__actions-item">
+                <a href="#" class="header__actions-btn">
+                  <svg class="header__actions-icon">
+                    <use href="assets/img/sprite.svg#icons-user"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header__actions-item">
+                <a href="#" class="header__actions-btn">
+                  <svg class="header__actions-icon">
+                    <use href="assets/img/sprite.svg#icons-bag"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="section hero">
+    <div class="container">
+      <div class="hero__header">
+        <p class="hero__header-subtitle">Explore</p>
+        <h1 class="h1 hero__header-title">Our Newest <br> Fragrances</h1>
+      </div>
+      <div class="hero__container">
+        <div class="hero__content">
+          <p class="hero__content-text">Dive into our latest collection of exquisite scents, crafted for discerning connoisseurs like you. Discover the perfect fragrance that complements your unique style and leaves a lasting impression.</p>
+          <p class="hero__content-subtitle">Discover our</p>
+          <a href="#" class="btn">Latest Additions</a>
+        </div>
+        <div class="hero__swiper swiper">
+          <div class="hero__cards swiper-wrapper">
+            <div class="hero__card hero__card--1 swiper-slide">
+              <img src="assets/img/hero1.png" alt="" class="hero__card-img">
+              <a href="#" class="hero__card-top">Explore more</a>
+              <a href="#" class="hero__card-bottom">Raees Vert</a>
+            </div>
+            <div class="hero__card hero__card--2 swiper-slide">
+              <img src="assets/img/hero2.png" alt="" class="hero__card-img">
+              <a href="#" class="hero__card-top">Explore more</a>
+              <a href="#" class="hero__card-bottom">Raees Vert</a>
+            </div>
+            <div class="hero__card hero__card--3 swiper-slide">
+              <img src="assets/img/hero3.png" alt="" class="hero__card-img">
+              <a href="#" class="hero__card-top">Explore more</a>
+              <a href="#" class="hero__card-bottom">Raees Vert</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
